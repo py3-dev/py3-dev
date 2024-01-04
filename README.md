@@ -20,7 +20,7 @@ class Attributes(py3dev):
         website  = "https://rl-app-production.up.railway.app/"
         email    = "17yashvarshney@gmail.com"
 	    
-	    return linkedin, instagram, website, email
+	return linkedin, instagram, website, email
 
     @property
     def life(self) -> Tuple[List[str], int]:
