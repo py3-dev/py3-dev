@@ -12,7 +12,7 @@ from typing import Tuple, List, Dict
 class py3dev:
     pass
 
-class Attributes(Tekky):
+class Attributes(py3dev):
     @property
     def contact(self) -> Tuple[str, str, str]:
         linkedin  = "https://www.linkedin.com/in/yashvarshney17/"
