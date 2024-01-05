@@ -9,26 +9,26 @@
 ```python
 from typing import Tuple, List, Dict
 
-class py3dev:
+class Py3Dev:
     pass
 
-class Attributes(py3dev):
+class Attributes(Py3Dev):
     @property
-    def contact(self) -> Tuple[str, str, str]:
+    def contact(self) -> Tuple[str, str, str, str]:
         linkedin  = "https://www.linkedin.com/in/yashvarshney17/"
         instagram = "https://instagram.com/yashvarshney17"
-        website  = "https://rl-app-production.up.railway.app/"
-        email    = "17yashvarshney@gmail.com"
-	    
-	return linkedin, instagram, website, email
+        website   = "https://rl-app-production.up.railway.app/"
+        email     = "17yashvarshney@gmail.com"
+        
+        return linkedin, instagram, website, email
 
     @property
     def life(self) -> Tuple[List[str], int]:
         langs = ['Hindi', 'English']
         age   = 22
-		
+        
         return langs, age
-	
+
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str]]:
         langs = {
@@ -37,15 +37,15 @@ class Attributes(py3dev):
             'learning'    : ['golang']
         }
         specialities  = ['nlp', 'fullstack']
-	environment = ['vscode']
+        environment   = ['vscode']
 
-	return langs, specialities, environment
+        return langs, specialities, environment
 ```
 <h2 align="center">Skills </h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,vscode,c,cs,cpp,js,html" />
+    <img src="https://skillicons.dev/icons?i=python,vscode,c,cpp,js,html,django" />
   </a>
 </p>
 
