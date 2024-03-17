@@ -25,7 +25,7 @@ class Attributes(Py3Dev):
     @property
     def life(self) -> Tuple[List[str], int]:
         langs = ['Hindi', 'English']
-        age   = 22
+        age   = 23
         
         return langs, age
 
