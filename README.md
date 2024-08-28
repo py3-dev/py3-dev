@@ -17,7 +17,7 @@ class Attributes(Py3Dev):
     def contact(self) -> Tuple[str, str, str, str]:
         linkedin  = "https://www.linkedin.com/in/yashvarshney17/"
         instagram = "https://instagram.com/yashvarshney17"
-        website   = "https://pypress.onrender.com/"
+        website   = "https://yashvarshney.in/"
         email     = "17yashvarshney@gmail.com"
         
         return linkedin, instagram, website, email
